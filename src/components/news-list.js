@@ -1,11 +1,10 @@
 import React from "react";
 
 import NewsItem from "./news-item";
-import newsDB from "./../assets/news-bd.json";
 
-const NewsList = () => (
+const NewsList = ({list}) => (
   <main className='news-list'>
-  {newsDB.map((item) => <NewsItem key={item.id} info={item} />)}
+  {list.map((item) => <NewsItem key={item.id} info={item} />)}
   </main>
   )
 

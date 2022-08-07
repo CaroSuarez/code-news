@@ -1,9 +1,9 @@
 import React from "react";
 
-const Header = () => (
+const Header = ({getNews}) => (
   <header>
     <p>Code News</p>
-    <input />
+    <input onChange={getNews} />
   </header>
 );
 
