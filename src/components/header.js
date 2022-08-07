@@ -4,7 +4,6 @@ const Header = () => (
   <header>
     <p>Code News</p>
     <input />
-    <button>Find</button>
   </header>
 );
 

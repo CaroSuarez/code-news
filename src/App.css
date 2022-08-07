@@ -38,20 +38,6 @@
     font-family: inherit;
   }
   
-  header button {
-    width: 100px;
-    margin-left: 20px;
-    font-weight: 800;
-    background-color: antiquewhite;
-    cursor: pointer;
-  }
-  
-  header button:hover {
-    background-color: lavender;
-    transform: scale(1.1);
-    font-weight: 900;
-  }
-  
   header input {
     width: 300px;
     padding: 10px;
